@@ -4,6 +4,7 @@ body {
   font-family: serif;
   color: gray;
 
+
   }
 .myTitle {
   background: gray;
@@ -13,7 +14,7 @@ body {
   font-weight: bold;
   }
   
-.bigBoss{ 
+.bigBoss{
   background: black;
   border-radius: 1px;
   padding: 20px;
@@ -23,51 +24,43 @@ body {
   justify-content: space-between;
   height: 600px;
   }
-  
-  .subBtn{
-    background:red;
-    color:aqua;
-    height 25px;
-    width: 120px;
-    padding: 20px;
-    background-image:
-  }
-  
+
   .subBtn:hover{
-    cursor:pointer
+    cursor: pointer;
     
   }
   .learningFlex{
     display: flex;
     justify-content: space-between;
     height: 25px;
-    flex-direction: ;
-    color: gray;  
-  }
+    flex-direction: row;
+    color: gray;
+    }
+  
   .myImg{
     height: 200px;
     width: 240px;
   }
   
   .tabSelector{
-    border-bottom: solid 2px red
+    border-bottom: solid 2px red;
   }
   
   .tabSelector:hover {
-    cursor:pointer
+    cursor: pointer;
   }
   
   .chosenClass{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 500px; 
-    align-items: center;  
-   }
+    height: 500px;
+    align-items: center;
+    }
   
   .viewArea{
     height: 100px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     flex-direction: column;
   }
